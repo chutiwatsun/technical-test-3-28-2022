@@ -1,0 +1,127 @@
+ID,AccountID,Area,Gender,MultipleLines,InternetService,PhoneService,StreamingTV,StreamingMovies,TechSupport,FaultPowerOutagePerMonth,FaultCableCutPerMonth,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,Churn
+0,A-805970,NBI,Female,No,DSL,No,No,No,No,2,10,Month-to-month,Yes,Electronic check,29.85,29.85,No
+1,A-8556,NBI,Male,No,DSL,Yes,No,No,No,3,1,One year,No,Mailed check,56.95,1889.5,No
+2,A-9408,NBI,Male,No,DSL,Yes,No,No,No,4,8,Month-to-month,Yes,Mailed check,53.85,108.15,Yes
+3,A-7984,NBI,Male,No,DSL,No,No,No,Yes,4,6,One year,No,Bank transfer (automatic),42.3,1840.75,No
+4,A-5205,BKK,Female,No,Fiber optic,Yes,No,No,No,7,2,Month-to-month,Yes,Electronic check,70.7,151.65,Yes
+5,A-7657,BKK,Female,Yes,Fiber optic,Yes,Yes,Yes,No,5,1,Month-to-month,Yes,Electronic check,99.65,820.5,Yes
+6,A-9732,BKK,Male,Yes,Fiber optic,Yes,Yes,No,No,2,1,Month-to-month,Yes,Credit card (automatic),89.1,1949.4,No
+7,A-5703,NBI,Female,No,DSL,No,No,No,No,5,2,Month-to-month,No,Mailed check,29.75,301.9,No
+8,A-9714,NBI,Male,No,DSL,Yes,No,No,No,3,3,One year,No,Bank transfer (automatic),56.15,3487.95,No
+9,A-7718,NBI,Male,No,DSL,Yes,No,No,No,5,4,Month-to-month,Yes,Mailed check,49.95,587.45,No
+10,A-698,,Male,No,No,Yes,No,No,No,,,Two year,No,Credit card (automatic),18.95,326.8,No
+11,A-9928,BKK,Male,Yes,Fiber optic,Yes,Yes,Yes,No,6,2,One year,No,Credit card (automatic),100.35,5681.1,No
+12,A-7522,BKK,Male,Yes,Fiber optic,Yes,Yes,Yes,No,3,2,Month-to-month,Yes,Bank transfer (automatic),103.7,5036.3,Yes
+13,A-7165,BKK,Female,Yes,Fiber optic,Yes,Yes,Yes,Yes,5,1,Two year,No,Credit card (automatic),113.25,7895.15,No
+14,A-8898,,Female,No,No,Yes,No,No,No,,,One year,No,Mailed check,20.65,1022.95,No
+15,A-9127,NBI,Female,No,DSL,Yes,No,No,Yes,2,6,Month-to-month,No,Credit card (automatic),55.2,528.35,Yes
+16,A-1189,NBI,Male,No,DSL,No,No,Yes,No,2,9,Month-to-month,Yes,Electronic check,39.65,39.65,Yes
+17,A-976,,Male,No,No,Yes,No,No,No,,,One year,No,Bank transfer (automatic),19.8,202.25,No
+18,A-9474,,Male,No,No,Yes,No,No,No,,,Month-to-month,No,Mailed check,20.15,20.15,Yes
+19,A-9594,NBI,Male,No,DSL,Yes,No,No,Yes,1,1,Month-to-month,No,Credit card (automatic),59.6,2970.3,No
+20,A-8952,NBI,Female,No,DSL,Yes,No,No,No,5,2,Month-to-month,Yes,Bank transfer (automatic),55.3,1530.6,No
+21,A-1456,BKK,Male,Yes,Fiber optic,Yes,Yes,Yes,No,3,1,Month-to-month,Yes,Electronic check,99.35,4749.15,Yes
+22,A-8419,NBI,Male,No,DSL,No,No,No,No,3,5,Month-to-month,No,Electronic check,30.2,30.2,Yes
+23,A-5030,NBI,Male,Yes,DSL,Yes,Yes,Yes,Yes,4,6,Two year,Yes,Credit card (automatic),90.25,6369.45,No
+24,A-9951,NBI,Female,No,DSL,Yes,Yes,Yes,No,5,1,Month-to-month,Yes,Mailed check,64.7,1093.1,Yes
+25,A-3036,BKK,Female,Yes,Fiber optic,Yes,No,No,Yes,5,1,Two year,Yes,Credit card (automatic),96.35,6766.95,No
+26,A-2941,NBI,Female,No,DSL,Yes,No,No,Yes,2,3,One year,No,Mailed check,66.15,1874.45,No
+27,A-7907,,Male,No,No,Yes,No,No,No,,,Month-to-month,No,Bank transfer (automatic),20.2,20.2,No
+28,A-4814,NBI,Male,No,DSL,Yes,No,No,No,5,2,Month-to-month,No,Bank transfer (automatic),45.25,45.25,No
+29,A-6616,BKK,Female,Yes,Fiber optic,Yes,Yes,No,Yes,1,2,Two year,No,Bank transfer (automatic),99.9,7251.7,No
+30,A-1839,BKK,Male,No,Fiber optic,Yes,No,No,No,4,3,Month-to-month,Yes,Electronic check,69.7,316.9,Yes
+31,A-2457,BKK,Male,Yes,Fiber optic,Yes,Yes,Yes,No,2,1,Month-to-month,Yes,Electronic check,106.35,3549.25,Yes
+32,A-1344,BKK,Female,Yes,Fiber optic,Yes,Yes,Yes,No,1,1,Month-to-month,Yes,Bank transfer (automatic),97.85,1105.4,Yes
+33,A-6954,NBI,Male,No,DSL,Yes,No,No,No,1,7,One year,No,Mailed check,49.55,475.7,No
+34,A-1772,,Female,No,No,Yes,No,No,No,,,One year,No,Mailed check,20.75,418.25,No
+35,A-1277,NBI,Female,Yes,DSL,Yes,Yes,No,Yes,1,4,Two year,Yes,Credit card (automatic),79.85,4861.45,No
+36,A-523,NBI,Female,Yes,DSL,Yes,Yes,No,Yes,3,8,Month-to-month,Yes,Electronic check,76.2,981.45,No
+37,A-7923,BKK,Female,Yes,Fiber optic,Yes,No,Yes,No,7,1,Month-to-month,Yes,Electronic check,84.5,3906.7,No
+38,A-53,NBI,Male,No,DSL,Yes,No,No,No,4,2,Month-to-month,No,Mailed check,49.25,97,No
+39,A-3595,BKK,Female,No,Fiber optic,Yes,Yes,No,No,3,3,Month-to-month,Yes,Electronic check,80.65,144.15,Yes
+40,A-7943,NBI,Male,Yes,DSL,Yes,Yes,Yes,Yes,2,6,Two year,Yes,Credit card (automatic),79.75,4217.8,No
+41,A-4813,NBI,Female,Yes,DSL,Yes,No,No,Yes,5,6,Two year,Yes,Credit card (automatic),64.15,4254.1,No
+42,A-2817,BKK,Female,No,Fiber optic,Yes,Yes,Yes,No,1,3,Month-to-month,Yes,Credit card (automatic),99.1,1426.4,Yes
+43,A-503,NBI,Female,Yes,DSL,Yes,Yes,No,Yes,5,4,Month-to-month,Yes,Credit card (automatic),69.5,1752.65,No
+44,A-5145,BKK,Female,Yes,Fiber optic,Yes,No,No,No,7,3,Month-to-month,Yes,Credit card (automatic),80.65,633.3,Yes
+45,A-6525,NBI,Female,No,DSL,Yes,No,Yes,Yes,4,10,One year,Yes,Credit card (automatic),74.85,4456.35,No
+46,A-8310,BKK,Male,Yes,Fiber optic,Yes,Yes,Yes,No,4,2,Month-to-month,Yes,Electronic check,95.45,1752.55,Yes
+47,A-8706,BKK,Female,Yes,Fiber optic,Yes,Yes,Yes,No,7,2,One year,Yes,Credit card (automatic),99.65,6311.2,No
+48,A-5490,BKK,Male,Yes,Fiber optic,Yes,Yes,Yes,Yes,3,2,One year,Yes,Electronic check,108.45,7076.35,No
+49,A-7015,,Female,Yes,No,Yes,No,No,No,,,Two year,No,Credit card (automatic),24.95,894.3,No
+50,A-9862,BKK,Female,Yes,Fiber optic,Yes,Yes,Yes,Yes,7,3,Two year,Yes,Credit card (automatic),107.5,7853.7,No
+51,A-3749,BKK,Female,Yes,Fiber optic,Yes,Yes,Yes,No,5,3,Month-to-month,Yes,Electronic check,100.5,4707.1,No
+52,A-7552,NBI,Male,No,DSL,No,No,No,No,5,2,Two year,No,Bank transfer (automatic),42.1,2962,No
+53,A-3149,NBI,Female,No,DSL,Yes,No,No,Yes,3,6,One year,Yes,Credit card (automatic),54.4,957.1,No
+54,A-2587,BKK,Female,Yes,Fiber optic,Yes,Yes,Yes,No,6,3,Month-to-month,No,Electronic check,94.4,857.25,Yes
+55,A-4675,BKK,Male,Yes,Fiber optic,Yes,No,No,No,1,3,One year,Yes,Electronic check,78.9,3650.35,No
+56,A-5437,NBI,Female,No,DSL,Yes,Yes,Yes,Yes,3,8,Two year,No,Mailed check,79.2,2497.2,No
+57,A-4180,,Female,No,No,Yes,No,No,No,,,Two year,No,Bank transfer (automatic),20.15,930.9,No
+58,A-4454,BKK,Male,No,Fiber optic,Yes,No,No,No,6,1,Month-to-month,Yes,Mailed check,79.85,887.35,No
+59,A-2364,NBI,Male,No,DSL,Yes,No,No,Yes,1,1,Month-to-month,No,Mailed check,49.05,49.05,No
+60,A-5008,,Female,No,No,Yes,No,No,No,,,One year,Yes,Electronic check,20.4,1090.65,No
+61,A-3172,BKK,Male,Yes,Fiber optic,Yes,Yes,Yes,Yes,3,3,Two year,Yes,Bank transfer (automatic),111.6,7099,No
+62,A-8804,SKN,Female,No,DSL,Yes,No,Yes,Yes,3,1,Month-to-month,Yes,Bank transfer (automatic),64.5,177.4,No
+63,A-3617,BKK,Female,Yes,Fiber optic,Yes,Yes,Yes,No,4,1,One year,No,Electronic check,110.5,6139.5,No
+64,A-9279,SKN,Female,No,DSL,Yes,No,Yes,No,5,4,One year,No,Credit card (automatic),55.65,2688.85,No
+65,A-8766,SKN,Female,No,DSL,Yes,No,No,No,2,9,Month-to-month,No,Mailed check,54.65,482.25,No
+66,A-7462,SKN,Male,No,DSL,Yes,Yes,Yes,No,5,3,Month-to-month,Yes,Electronic check,74.75,2111.3,No
+67,A-7737,SKN,Female,No,DSL,No,Yes,Yes,No,1,10,Month-to-month,No,Electronic check,50.55,565.35,No
+68,A-7178,BKK,Female,No,Fiber optic,Yes,No,No,No,5,3,Month-to-month,Yes,Bank transfer (automatic),75.15,496.9,Yes
+69,A-2508,BKK,Female,No,Fiber optic,Yes,Yes,Yes,Yes,6,3,Month-to-month,Yes,Bank transfer (automatic),103.8,4327.5,No
+70,A-4815,BKK,Male,Yes,Fiber optic,Yes,Yes,Yes,No,4,1,Month-to-month,Yes,Credit card (automatic),99.3,918.75,No
+71,A-7467,SKN,Female,No,DSL,Yes,Yes,No,No,4,8,One year,Yes,Bank transfer (automatic),62.15,2215.45,No
+72,A-8166,SKN,Male,No,DSL,No,Yes,No,No,3,7,Month-to-month,No,Mailed check,33.75,1009.25,No
+73,A-6344,BKK,Male,No,Fiber optic,Yes,No,No,No,4,3,Month-to-month,No,Bank transfer (automatic),82.05,2570.2,No
+74,A-7941,SKN,Male,Yes,DSL,Yes,Yes,Yes,Yes,1,7,Two year,Yes,Mailed check,84,5714.25,No
+75,A-2836,BKK,Male,Yes,Fiber optic,Yes,Yes,Yes,No,5,2,Two year,Yes,Bank transfer (automatic),100.9,7459.05,No
+76,A-2038,,Male,No,No,Yes,No,No,No,,,Month-to-month,No,Mailed check,21.05,113.85,Yes
+77,A-4623,,Male,No,No,Yes,No,No,No,,,Two year,No,Bank transfer (automatic),21,1107.2,No
+78,A-4288,BKK,Female,No,Fiber optic,Yes,Yes,Yes,No,7,2,Month-to-month,Yes,Electronic check,98.5,2514.5,Yes
+79,A-8204,BKK,Male,Yes,Fiber optic,Yes,Yes,No,Yes,6,3,One year,No,Bank transfer (automatic),95,3605.6,No
+80,A-4215,SKN,Female,No,DSL,No,Yes,No,No,5,9,One year,No,Bank transfer (automatic),45.55,3027.25,No
+81,A-6115,BKK,Male,Yes,Fiber optic,Yes,Yes,Yes,Yes,3,1,Two year,Yes,Bank transfer (automatic),110,7611.85,Yes
+82,A-9786,SKN,Male,No,DSL,No,No,No,No,2,9,Month-to-month,No,Mailed check,24.3,100.2,No
+83,A-3946,BKK,Female,Yes,Fiber optic,Yes,Yes,Yes,No,7,2,One year,Yes,Electronic check,104.15,7303.05,No
+84,A-7315,SKN,Female,No,DSL,No,No,No,No,1,7,One year,No,Mailed check,30.15,927.65,No
+85,A-3882,BKK,Male,Yes,Fiber optic,Yes,Yes,Yes,No,1,2,One year,No,Mailed check,94.35,3921.3,No
+86,A-1845,,Male,No,No,Yes,No,No,No,,,Two year,No,Credit card (automatic),19.4,1363.25,No
+87,A-5007,BKK,Male,Yes,Fiber optic,Yes,Yes,No,No,1,1,Month-to-month,Yes,Electronic check,96.75,5238.9,Yes
+88,A-3087,SKN,Female,No,DSL,Yes,No,No,Yes,5,4,One year,No,Credit card (automatic),57.95,3042.25,No
+89,A-7771,BKK,Female,No,Fiber optic,Yes,Yes,No,No,7,3,Month-to-month,Yes,Electronic check,91.65,3954.1,No
+90,A-7274,BKK,Female,Yes,Fiber optic,Yes,No,No,No,1,3,Month-to-month,Yes,Electronic check,76.5,2868.15,Yes
+91,A-3999,SKN,Female,No,DSL,No,Yes,Yes,Yes,4,6,Two year,Yes,Electronic check,54.6,3423.5,No
+92,A-578,NBI,Male,No,Fiber optic,Yes,Yes,No,No,1,1,Month-to-month,No,Electronic check,89.85,248.4,No
+93,A-7549,SKN,Female,No,DSL,No,No,No,No,2,4,Two year,No,Bank transfer (automatic),31.05,1126.35,No
+94,A-3659,NBI,Female,Yes,Fiber optic,Yes,Yes,Yes,No,3,1,Month-to-month,Yes,Electronic check,100.25,1064.65,Yes
+95,A-5083,,Female,No,No,Yes,No,No,No,,,Two year,No,Mailed check,20.65,835.15,No
+96,A-4495,NBI,Male,Yes,Fiber optic,Yes,No,No,Yes,1,3,Month-to-month,Yes,Credit card (automatic),85.2,2151.6,No
+97,A-8660,NBI,Female,Yes,Fiber optic,Yes,Yes,Yes,No,4,2,One year,Yes,Credit card (automatic),99.8,5515.45,No
+98,A-6784,,Female,No,No,Yes,No,No,No,,,Month-to-month,No,Mailed check,20.7,112.75,No
+99,A-3572,NBI,Male,Yes,Fiber optic,Yes,No,No,No,2,1,Month-to-month,Yes,Electronic check,74.4,229.55,Yes
+100,A-7361,SKN,Female,No,DSL,Yes,No,No,No,1,9,Month-to-month,No,Mailed check,50.7,350.35,No
+101,A-6042,,Female,No,No,Yes,No,No,No,,,Month-to-month,No,Mailed check,20.85,62.9,No
+102,A-7773,NBI,Male,No,Fiber optic,Yes,Yes,No,Yes,1,3,Two year,Yes,Electronic check,88.95,3027.65,No
+103,A-2112,NBI,Female,Yes,Fiber optic,Yes,No,No,No,7,1,Month-to-month,Yes,Electronic check,78.05,2135.5,Yes
+104,A-7141,,Male,Yes,No,Yes,No,No,No,,,Two year,Yes,Bank transfer (automatic),23.55,1723.95,No
+105,A-3969,,Male,No,No,Yes,No,No,No,,,Month-to-month,No,Mailed check,19.75,19.75,No
+106,A-9206,SKN,Male,No,DSL,No,Yes,Yes,No,2,1,One year,Yes,Electronic check,56.45,3985.35,No
+107,A-8375,NBI,Female,Yes,Fiber optic,Yes,No,Yes,No,6,2,Month-to-month,Yes,Electronic check,85.95,1215.65,No
+108,A-4674,SKN,Female,No,DSL,No,Yes,Yes,No,2,2,Month-to-month,Yes,Credit card (automatic),58.6,1502.65,Yes
+109,A-7695,SKN,Male,No,DSL,No,No,Yes,No,5,10,Month-to-month,Yes,Electronic check,35.45,35.45,Yes
+110,A-8048,SKN,Male,No,DSL,Yes,No,No,No,5,3,Month-to-month,No,Electronic check,44.35,81.25,Yes
+111,A-74,,Female,Yes,No,Yes,No,No,No,,,Two year,Yes,Credit card (automatic),25.7,1188.2,No
+112,A-5735,NBI,Female,No,Fiber optic,Yes,No,No,No,4,1,Month-to-month,Yes,Bank transfer (automatic),75,1778.5,No
+113,A-1480,,Female,No,No,Yes,No,No,No,,,Two year,No,Mailed check,20.2,1277.75,No
+114,A-1289,,Male,No,No,Yes,No,No,No,,,Two year,Yes,Mailed check,19.6,1170.55,No
+115,A-1890,NBI,Female,No,Fiber optic,Yes,No,No,No,4,1,Month-to-month,Yes,Mailed check,70.45,70.45,Yes
+116,A-2491,SKN,Female,Yes,DSL,Yes,Yes,Yes,Yes,3,2,Two year,Yes,Credit card (automatic),88.05,6425.65,No
+117,A-4803,SKN,Female,Yes,DSL,Yes,No,Yes,Yes,4,9,Month-to-month,No,Electronic check,71.15,563.65,Yes
+118,A-8485,NBI,Female,Yes,Fiber optic,Yes,Yes,Yes,No,4,1,Two year,Yes,Bank transfer (automatic),101.05,5971.25,No
+119,A-9472,NBI,Male,Yes,Fiber optic,Yes,No,No,No,2,3,One year,Yes,Credit card (automatic),84.3,5289.05,No
+120,A-7844,,Male,Yes,No,Yes,No,No,No,,,Two year,No,Bank transfer (automatic),23.95,1756.2,No
+121,A-3726,NBI,Female,Yes,Fiber optic,Yes,Yes,No,Yes,3,3,Two year,Yes,Credit card (automatic),99.05,6416.7,No
+122,A-2054,,Male,No,No,Yes,No,No,No,,,One year,No,Mailed check,19.6,61.35,No
+123,A-4625,SKN,Male,No,DSL,Yes,No,No,No,4,8,Month-to-month,Yes,Electronic check,45.65,45.65,Yes
+124,A-1805,SKN,Male,No,DSL,Yes,Yes,No,No,5,8,One year,No,Credit card (automatic),64.5,1929.95,No
+125,A-7649,SKN,Male,No,DSL,Yes,No,Yes,Yes,4,9,Month-to-month,Yes,Mailed check,69.5,1071.4,No

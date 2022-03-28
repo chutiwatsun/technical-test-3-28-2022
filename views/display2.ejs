@@ -1,0 +1,93 @@
+<!--
+    Page view for datatable, retrive data from mongodb database which we uploaded csv to
+    List all first row with column information
+    Then loop through database to fill detail of each row of data then apply bootstrap-table 
+    to view, sort, or search data which we are looking for.
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Database</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.19.1/dist/bootstrap-table.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
+    
+</head>
+<body>
+    <script src="https://unpkg.com/bootstrap-table@1.19.1/dist/bootstrap-table.min.js"></script>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary flex-top">
+                <a class="navbar-brand" href="#">Database</a>
+              </nav>
+     </div>
+      
+    <%if(data){%>
+    
+            <table id="example" class="table table-striped table-hover" style="width:100%">
+                <thead>
+                        <tr>
+                        <th>ID</th>
+                        <th>Acc ID</th>
+                        <th>Area</th>
+                        <th>Gender</th>
+                        <th>Multiple<br>Lines</th>
+                        <th>Internet<br>Service</th>
+                        <th>Phone<br>Service</th>
+                        <th>Streaming<br>TV</th>
+                        <th>Streaming<br>Movies</th>
+                        <th>Tech<br>Support</th>
+                        <th>Fault<br>PowerOutage<br>PerMonth</th>
+                        <th>Fault<br>CableCut<br>PerMonth</th>
+                        <th>Contract</th>
+                        <th>Paperless<br>Billing</th>
+                        <th>Payment<br>Method</th>
+                        <th>Monthly<br>Charges</th>
+                        <th>Total<br>Charges</th>
+                        <th>Churn</th>
+                        
+                    </tr>
+                </thead>
+               
+                    <tbody>
+                    <%for(var i=0;i< data.length;i++){%>
+                        <tr class="text-center">                        
+                            <td><%= data[i].ID%></td>
+                            <td><%= data[i].AccountID%></td>
+                            <td><%= data[i].Area%></td>
+                            <td><%= data[i].Gender%></td>
+                            <td><%= data[i].MultipleLines%></td>
+                            <td><%= data[i].InternetService%></td>
+                            <td><%= data[i].PhoneService%></td>
+                            <td><%= data[i].StreamingTV%></td>
+                            <td><%= data[i].StreamingMovies%></td>
+                            <td><%= data[i].TechSupport%></td>
+                            <td><%= data[i].FaultPowerOutagePerMonth%></td>
+                            <td><%= data[i].FaultCableCutPerMonth%></td>
+                            <td><%= data[i].Contract%></td>
+                            <td><%= data[i].PaperlessBilling%></td>
+                            <td><%= data[i].PaymentMethod%></td>
+                            <td><%= data[i].MonthlyCharges%></td>
+                            <td><%= data[i].TotalCharges%></td>
+                             <td><%= data[i].Churn%></td>                           
+                                
+                        </tr>
+                    <%}%>
+                </tbody>
+        </table>
+    <%}%>
+<br>
+
+    <script src="//code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
+        <script>
+            $(document).ready(function() {
+             $('#example').DataTable();
+            } );
+        </script>
+</body>
+</html>

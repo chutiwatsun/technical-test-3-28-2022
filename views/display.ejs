@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Upload to Database</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.19.1/dist/bootstrap-table.min.css">
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+                <a class="navbar-brand" href="#">CsvToDatabase</a>
+              </nav>
+    <div class="container">
+        <div class=" nav justify-content-center" style="margin-top:100px;">
+         <div class="card border-warning mb-3 " style="max-width: 25rem;">
+                <div class="card-header"><h5>Upload data file</h5></div>
+                <div class="card-body">
+                        <form action="/" method="post" enctype="multipart/form-data">
+                            <input type="file" name="csv"><br><br>
+                         <div class="text-center"><button type="submit" class="btn btn-lg btn-primary">submit</button></div>   
+                        </form>
+                </div>
+          </div>
+    </div><br>
+    <%if(data){%>
+    <div id="datatable">
+              
+            <table data-toggle="table">
+
+                <thead>
+                    <tr class="bg-primary" style="font-size: 10px">
+                        <th>ID</th>
+                        <th>Acc ID</th>
+                        <th>Area</th>
+                        <th>Gender</th>
+                        <th>Multiple<br>Lines</th>
+                        <th>Internet<br>Service</th>
+                        <th>Phone<br>Service</th>
+                        <th>Streaming<br>TV</th>
+                        <th>Streaming<br>Movies</th>
+                        <th>Tech<br>Support</th>
+                        <th>Fault<br>PowerOutage<br>PerMonth</th>
+                        <th>Fault<br>CableCut<br>PerMonth</th>
+                        <th>Contract</th>
+                        <th>Paperless<br>Billing</th>
+                        <th>Payment<br>Method</th>
+                        <th>Monthly<br>Charges</th>
+                        <th>Total<br>Charges</th>
+                        <th>Churn</th>
+                       
+                    </tr>
+                </thead>
+                <tbody style="overflow-x: scroll; height:350px;" class="table-bordered">
+                    <%for(var i=0;i< data.length;i++){%>
+                    <tr class="text-center">                        
+                                  <td><%= data[i].ID%></td>
+                                  <td><%= data[i].AccountID%></td>
+                                  <td><%= data[i].Area%></td>
+                                  <td><%= data[i].Gender%></td>
+                                  <td><%= data[i].MultipleLines%></td>
+                                  <td><%= data[i].InternetService%></td>
+                                  <td><%= data[i].PhoneService%></td>
+                                  <td><%= data[i].StreamingTV%></td>
+                                  <td><%= data[i].StreamingMovies%></td>
+                                  <td><%= data[i].TechSupport%></td>
+                                  <td><%= data[i].FaultPowerOutagePerMonth%></td>
+                                  <td><%= data[i].FaultCableCutPerMonth%></td>
+                                  <td><%= data[i].Contract%></td>
+                                  <td><%= data[i].PaperlessBilling%></td>
+                                  <td><%= data[i].PaymentMethod%></td>
+                                  <td><%= data[i].MonthlyCharges%></td>
+                                  <td><%= data[i].TotalCharges%></td>
+                                  <td><%= data[i].Churn%></td>                                
+                               
+                    </tr>
+                    <%}%>
+                </tbody>
+        </table>
+    </div>
+    <%}%>
+<br>
+<script src="https://unpkg.com/bootstrap-table@1.19.1/dist/bootstrap-table.min.js"></script>
+</body>
+</html>

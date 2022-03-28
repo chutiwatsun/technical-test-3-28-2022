@@ -1,0 +1,2 @@
+ID,AccountID,Area,Gender,MultipleLines,InternetService,PhoneService,StreamingTV,StreamingMovies,TechSupport,FaultPowerOutagePerMonth,FaultCableCutPerMonth,Contract,PaperlessBilling,PaymentMethod,MonthlyCharges,TotalCharges,Churn
+0,A-805970,NBI,Female,No,DSL,No,No,No,No,2,10,Month-to-month,Yes,Electronic check,29.85,29.85,No
